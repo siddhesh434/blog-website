@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact Us - My Blog Website</title>
+    <link rel="stylesheet" href="/css/aboutpage.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Welcome to My Blog</h1>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/contact">Contact</a></li>
+          <li><a href="/admin/login">Admin Login</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main-content">
+      <section class="contact-section">
+        <h2>Contact Us</h2>
+        <p>
+          Do you have any questions, suggestions, or feedback? Feel free to get
+          in touch with us.
+        </p>
+        <p>
+          You can reach us via email, phone, or by filling out the contact form
+          below. We appreciate your interest in our blog and look forward to
+          hearing from you!
+        </p>
+
+        <div class="contact-info">
+          <h3>Contact Information:</h3>
+          <p>Email: info@myblogwebsite.com</p>
+          <p>Phone: +1234567890</p>
+          <!-- Add more contact details as needed -->
+        </div>
+
+        <form action="/contact" method="POST" class="contact-form">
+          <input
+            type="text"
+            name="name"
+            placeholder="Your Name"
+            required
+            class="form-input"
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Your Email"
+            required
+            class="form-input"
+          />
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            required
+            class="form-textarea"
+          ></textarea>
+          <button type="submit" class="submit-button">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2023 My Blog Website</p>
+    </footer>
+  </body>
+</html>
